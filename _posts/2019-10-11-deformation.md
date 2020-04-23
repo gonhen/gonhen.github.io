@@ -83,16 +83,20 @@ Seja Q uma partícula material muito próxima da vizinhança de P (distância
 infinitesimal). A distância das duas partículas na configuração inicial do corpo
 é dada por:
 
-\begin{equation}
-\overline{PQ} = \mathrm{d} l = \sqrt{\mathrm{d} X_1^2+\mathrm{d} X_2^2+\mathrm{d} X_3^2} = \sqrt{\mathrm{d} X_i^2}
-\end{equation}
+$$\begin{align}
+\overline{PQ} = \mathrm{d} l =& \sqrt{\mathrm{d} X_1^2+\mathrm{d}
+X_2^2+\mathrm{d} X_3^2}\\
+=& \sqrt{\mathrm{d} X_i^2}
+\end{align}$$
 
 Após o corpo deformar-se, a distância entre os dois pontos altera-se:
 
 
-\begin{equation}
-\overline{P'Q'} = \mathrm{d} l' = \sqrt{\mathrm{d} x_1^2+\mathrm{d} x_2^2+\mathrm{d} x_3^2} = \sqrt{\mathrm{d} x_i^2}
-\end{equation}
+$$\begin{align}
+\overline{P'Q'} = \mathrm{d} l' &= \sqrt{\mathrm{d} x_1^2+\mathrm{d}
+x_2^2+\mathrm{d} x_3^2} \\
+&= \sqrt{\mathrm{d} x_i^2}
+\end{align}$$
 
 Repare que $$ \mathrm{d} x_i $$ pode ser obtido em função da configuração
 inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
