@@ -108,8 +108,8 @@ $$\begin{align}
  &= \mathrm{d} X_i^2 + 2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 -
  \mathrm{d} X_i^2 \\
  &=  2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 \\
- &= 2 ( \frac{\partial u_i}{\partial X_k}) \mathrm{d}X_i \mathrm{d}X_k
- +(\frac{\partial u_i}{\partial X_k} \frac{\partial u_i}{\partial X_l})
+ &=  2 ( \frac{\partial u_i}{\partial X_k}) \mathrm{d}X_i \mathrm{d}X_k \\
+ & \quad +(\frac{\partial u_i}{\partial X_k} \frac{\partial u_i}{\partial X_l})
  \mathrm{d}X_k \mathrm{d}X_l
 \end{align}$$
 
