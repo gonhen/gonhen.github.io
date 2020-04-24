@@ -10,13 +10,14 @@ image:
 
 ## 1.1 Motivação e objectivo
 
-A abordagem fenomelógica é utilizada na mecânica dos meios contínuos para
-descrever o comportamento dos materiais, isto é, a utilização de modelos físicos
+Na mecânica dos meios contínuos é utilizada a abordagem fenemológica para
+descrever o comportamento dos materiais, isto é, são empregues modelos físicos
 de comportamento com resposta similar à esperada pelos materiais reais. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
-provocadas. Estes ensaios devem permitir estabelecer as relações constitutivas -
-relações entre as tensões e as extensões.
+provocadas. Estes ensaios devem possibilitar estabelecer as relações
+constitutivas,relações entre as tensões e as extensões, que permitem definir o
+comportamento reológico do material.
 Na resolução de problemas de engenharia surgem diferentes definições de
 extensão consoante a ferramenta numérica utilizada e o problema em análise. Mas
 qual a razão para a existência de tantas definições de extensão?, qual a mais
