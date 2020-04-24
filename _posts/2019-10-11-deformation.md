@@ -18,9 +18,9 @@ aplicar forças numa amostra material e medir as deformações por estas
 provocadas. Estes ensaios permitem definir os parâmetros reológicos do material
 e, consequentemente, as relações constitutivas.
 
-Para além das medições efectuadas em ensaios experimentais, na resolução de
-problemas de engenharia surgem diferentes de medir a deformação consoante a
-ferramenta numérica utilizada e o problema em análise. Mas
+Na resolução de problemas de engenharia, com recurso a modelos numéricos,
+surgem diferentes definições de extensão consoante a ferramenta numérica
+utilizada e o problema em análise. Mas
 qual a razão para a existência de tantas definições de extensão?, qual a mais
 adequada? e para que tipo de análise?
 Este artigo tem como objectivo elencar as diferenças entre as várias definições
