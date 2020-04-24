@@ -15,11 +15,12 @@ descrever o comportamento dos materiais, isto é, são empregues modelos físico
 de comportamento com resposta similar à esperada pelos materiais reais. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
-provocadas. Estes ensaios devem possibilitar estabelecer as relações
-constitutivas,relações entre as tensões e as extensões, que permitem definir o
-comportamento reológico do material.
-Na resolução de problemas de engenharia surgem diferentes definições de
-extensão consoante a ferramenta numérica utilizada e o problema em análise. Mas
+provocadas. Estes ensaios permitem definir os parâmetros reológicos do material
+e, consequentemente, as relações constitutivas.
+
+Para além das medições efectuadas em ensaios experimentais, na resolução de
+problemas de engenharia surgem diferentes de medir a deformação consoante a
+ferramenta numérica utilizada e o problema em análise. Mas
 qual a razão para a existência de tantas definições de extensão?, qual a mais
 adequada? e para que tipo de análise?
 Este artigo tem como objectivo elencar as diferenças entre as várias definições
