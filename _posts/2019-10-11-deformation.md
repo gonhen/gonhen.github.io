@@ -20,8 +20,8 @@ material e, consequentemente, estabelecer a relação constitutiva que
 possibilita a construção de um modelo numérico para o estudo do comportamento do
 material.
 
-Os modelos computacionais são usados, em problemas de engenharia, para
-preverem os comportamentos do materiais. Nestes modelos surgem diferentes
+Em problemas de engenharia são usados modelos computacionais para
+prever os comportamentos dos materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada, problema em
 análise, material em estudo, etc.. Mas quais os motivos para a existência de
 tantas definições de extensão?,
