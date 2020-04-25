@@ -12,7 +12,7 @@ image:
 
 Na mecânica dos meios contínuos utiliza-se a abordagem fenemológica para
 descrever o comportamento do material, isto é, é empregue um modelo físico
-de comportamento com resposta similar às esperadas pelo material real. Esta
+de comportamento com resposta similar à esperada pelo material real. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
 provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
@@ -21,9 +21,10 @@ possibilita a construção de um modelo numérico para o estudo do comportamento
 material.
 
 Os modelos computacionais são usados, em problemas de engenharia, para
-preverem o comportamentos do material. Nestes modelos surgem diferentes
-definições de extensão consoante a ferramenta numérica utilizada e o problema em
-análise. Mas qual a razão para a existência de tantas definições de extensão?,
+preverem o comportamento do material. Nestes modelos surgem diferentes
+definições de extensão consoante a ferramenta numérica utilizada, problema em
+análise, o material em estudo, etc.. Mas qual a razão para a existência de
+tantas definições de extensão?,
 qual a mais adequada? e para que tipo de análise?
 Este artigo tem como objectivo elencar as diferenças e vantagens entre as várias
 definições de extensão e o âmbito das suas aplicações.
