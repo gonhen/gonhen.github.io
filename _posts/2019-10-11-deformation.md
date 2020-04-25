@@ -10,19 +10,21 @@ image:
 
 ## 1.1 Motivação e objectivo
 
-Na mecânica dos meios contínuos é utilizada a abordagem fenemológica para
+Na mecânica dos meios contínuos utiliza-se a abordagem fenemológica para
 descrever o comportamento dos materiais, isto é, são empregues modelos físicos
 de comportamento com resposta similar à esperada pelos materiais reais. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
-provocadas. Estes ensaios permitem definir os parâmetros reológicos do material
-e, consequentemente, as relações constitutivas.
+provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
+material e, consequentemente, estabelecer as relações constitutivas que
+possibilitam a construção de modelos numéricos para o estudo do comportamento
+material.
 
-Na resolução de problemas de engenharia, com recurso a modelos numéricos,
-surgem diferentes definições de extensão consoante a ferramenta numérica
-utilizada e o problema em análise. Mas
-qual a razão para a existência de tantas definições de extensão?, qual a mais
-adequada? e para que tipo de análise?
+Na resolução de problemas de engenharia são usados modelos computacionais para
+preverem os comportamentos materiais. Nestes modelos surgem diferentes
+definições de extensão consoante a ferramenta numérica utilizada e o problema em
+análise. Mas qual a razão para a existência de tantas definições de extensão?,
+qual a mais adequada? e para que tipo de análise?
 Este artigo tem como objectivo elencar as diferenças entre as várias definições
 de extensão, o âmbito das suas aplicações e vantagens.
 
