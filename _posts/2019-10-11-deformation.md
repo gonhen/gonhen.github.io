@@ -17,7 +17,7 @@ abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem e
 aplicar forças numa amostra material e medir as deformações por estas
 provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
 material e, consequentemente, estabelecer a relação constitutiva que
-possibilita a construção de um modelo numérico para o estudo do comportamento do
+possibilita a construção de modelos numéricos para o estudo do comportamento do
 material.
 
 Em problemas de engenharia são usados modelos computacionais para
