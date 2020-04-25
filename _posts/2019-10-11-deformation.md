@@ -11,14 +11,14 @@ image:
 ## 1.1 Motivação e objectivo
 
 Na mecânica dos meios contínuos utiliza-se a abordagem fenemológica para
-descrever o comportamento dos materiais, isto é, são empregues modelos físicos
-de comportamento com resposta similar à esperada pelos materiais reais. Esta
+descrever o comportamento do material, isto é, são empregues modelos físicos
+de comportamento com respostas similares às esperadas pelos materiais reais. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
 provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
 material e, consequentemente, estabelecer as relações constitutivas que
-possibilitam a construção de modelos numéricos para o estudo do comportamento
-material.
+possibilitam a construção de modelos numéricos para o estudo do comportamento dos
+materiais.
 
 Na resolução de problemas de engenharia são usados modelos computacionais para
 preverem os comportamentos dos materiais. Nestes modelos surgem diferentes
