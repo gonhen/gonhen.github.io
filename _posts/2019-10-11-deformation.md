@@ -21,7 +21,7 @@ possibilitam a construção de modelos numéricos para o estudo do comportamento
 material.
 
 Na resolução de problemas de engenharia são usados modelos computacionais para
-preverem os comportamentos materiais. Nestes modelos surgem diferentes
+preverem os comportamentos dos materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada e o problema em
 análise. Mas qual a razão para a existência de tantas definições de extensão?,
 qual a mais adequada? e para que tipo de análise?
