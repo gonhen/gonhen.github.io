@@ -17,11 +17,11 @@ abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem e
 aplicar forças numa amostra material e medir as deformações por estas
 provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
 material e, consequentemente, estabelecer a relação constitutiva que
-possibilita as construções de modelos numéricos para o estudo do comportamento do
+possibilita a construção de um modelo numérico para o estudo do comportamento do
 material.
 
 Os modelos computacionais são usados, em problemas de engenharia, para
-preverem o comportamento do material. Nestes modelos surgem diferentes
+preverem os comportamentos do materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada, problema em
 análise, material em estudo, etc.. Mas quais os motivos para a existência de
 tantas definições de extensão?,
