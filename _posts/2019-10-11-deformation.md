@@ -11,7 +11,7 @@ image:
 ## 1.1 Motivação e objectivo
 
 Na mecânica dos meios contínuos utiliza-se a abordagem fenemológica para
-descrever o comportamento do material, isto é, é empregue um modelo físico
+descrever o comportamento do material, ou seja, é empregue um modelo físico
 de comportamento com resposta similar à esperada pelo material real. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
