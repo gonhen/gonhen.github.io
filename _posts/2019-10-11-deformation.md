@@ -10,7 +10,7 @@ image:
 
 ## 1.1 Motivação e objectivo
 
-Na mecânica dos meios contínuos utilizar-se a abordagem fenomenológica para
+Na mecânica dos meios contínuos utiliza-se a abordagem fenomenológica para
 descrever o comportamento do material, ou seja, é empregue um modelo físico
 de comportamento com resposta similar à esperada pelo material real. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
@@ -36,9 +36,9 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 *Corpo contínuo:* corpo com o interior totalmente preenchido por partículas
  materiais.
 
-*Deformação:* variação da distância entre dois pontos do interior do corpo.
+*Deformação Lagrangeana:* variação da distância entre dois pontos do interior do corpo.
 
-*Extensão:* medida da deformação em relação a um referencial que, por exemplo,
+*Extensão Euleriana:* medida da deformação em relação a um referencial que, por exemplo,
  pode variar consoante o tipo de formulação.
 
 *Formulação Lagrangeana:* medição das grandezas físicas em relação à
@@ -72,7 +72,7 @@ com um exemplo prático para o caso .
 
 
 Considere uma partícula material no interior da configuração inicial de um corpo
-contínuo. A sua posição inicial $$P$$ é definida pelo vector $$\vem{r}=X_ie_i$$. Quando o
+contínuo. A sua posição inicial $$P$$ é definida pelo vector $$\vec{r}=X_ie_i$$. Quando o
 corpo é deslocado, a partícula material passa a ocupar a posição $$P'$$ definida
 pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$u$$ é obtido pela
 diferença $$\vec{r'}-\vec{r}$$:
