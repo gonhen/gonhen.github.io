@@ -67,7 +67,7 @@ com um exemplo prático para o caso .
 
 É utilizada a notação indicial.
 
-$$P$$, $$Q$$ - partículas materiais na configuração inicial do corpo.
+$$P$$, $$Q$$ - partículas materiais na configuração inicial do corpo.\\
 $$P'$$, $$Q'$$ - partículas materiais na configuração do corpo no instante $$t$$.
 
 # 2 Medição da deformação
