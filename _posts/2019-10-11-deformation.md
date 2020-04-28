@@ -67,8 +67,12 @@ com um exemplo prático para o caso .
 
 É utilizada a notação indicial.
 
-$$P$$, $$Q$$ - partículas materiais na configuração inicial do corpo.\\
-$$P'$$, $$Q'$$ - partículas materiais na configuração do corpo no instante $$t$$.
+$$P$$, $$Q$$ - posições das partículas materiais na configuração do corpo no
+instante $$t_0$$.\\
+$$P'$$, $$Q'$$ - posições das partículas materiais na configuração do corpo no
+instante $$t$$.\\
+$$X_i$$ - coordenadas da partícula material no instante $$t_0$$\\
+$$x_i$$ - coordenadas da partícula material no instante $$t$$
 
 # 2 Medição da deformação
 
@@ -97,7 +101,8 @@ X_2^2+\mathrm{d} X_3^2}\\
 =& \sqrt{\mathrm{d} X_i^2}
 \end{align}$$
 
-Após o corpo deformar-se, a distância entre os dois pontos altera-se:
+Para o instante $$t$$, a distância entre as duas partículas materiais é
+calculada de forma análoga:
 
 
 $$\begin{align}
@@ -109,6 +114,9 @@ x_2^2+\mathrm{d} x_3^2} \\
 Repare que $$ \mathrm{d} x_i $$ pode ser obtido em função da configuração
 inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
 \mathrm{d} u_i = \frac{\partial u_i}{\partial x_k} \mathrm{d} x_k $$.
+
+No caso de $$\overline{PQ}=\overline{P'Q'}$$, a distância entre as partículas
+manteve-se o que significa que houve um movimento de corpo rígido.
 
 Para medir a deformação começa-se por analisar a diferença do quadrado das
 distâncias infinitesimais das partículas:
