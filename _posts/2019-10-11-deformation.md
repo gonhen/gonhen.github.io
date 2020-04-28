@@ -25,7 +25,7 @@ prever os comportamentos dos materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada, problema em
 análise, material em estudo, etc.. Mas quais os motivos para a existência de
 tantas definições de extensão?, qual a mais adequada? e para que tipo de
-análise? Este artigo tem como objectivo  as diferenças e vantagens entre as
+análise? Este artigo tem como objectivo elencar as diferenças e vantagens entre as
 várias definições de extensão e o âmbito das suas aplicações.
 
 ## 1.2 Conceitos
@@ -46,9 +46,8 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 *Formulação Euleriana:* medição das grandezas físicas em relação à
  configuração deformada do corpo.
 
-*Movimento de corpo rígido:* quando após a aplicação de forças ou deslocamentos
- sobre um corpo, a distância entre partículas materiais do interior do corpo se
- mantém inalterada.
+*Movimento de corpo rígido:* quando a distância entre todas as partículas
+ materiais do interior do corpo se mantém inalterada.
 
 ## 1.3 Estrutura do artigo
 
@@ -115,11 +114,12 @@ Repare que $$ \mathrm{d} x_i $$ pode ser obtido em função da configuração
 inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
 \mathrm{d} u_i = \frac{\partial u_i}{\partial x_k} \mathrm{d} x_k $$.
 
-No caso de $$\overline{PQ}=\overline{P'Q'}$$, a distância entre as partículas
-manteve-se o que significa que houve um movimento de corpo rígido.
+No caso de $$\overline{PQ}=\overline{P'Q'}$$ para qualquer par de partículas
+materiais, o corpo está num movimento de corpo rígido. Caso contrário, o copo
+está deformado.
 
-Para medir a deformação começa-se por analisar a diferença do quadrado das
-distâncias infinitesimais das partículas:
+Para medir a deformação, seguindo o raciocínio de XXX, começa-se por analisar a
+diferença do quadrado das distâncias infinitesimais das partículas:
 
 
 $$\begin{align}
@@ -128,9 +128,10 @@ $$\begin{align}
  &= \mathrm{d} X_i^2 + 2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 -
  \mathrm{d} X_i^2 \\
  &=  2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 \\
- &=  2 ( \frac{\partial u_i}{\partial X_k}) \mathrm{d}X_i \mathrm{d}X_k \\
- & \quad +(\frac{\partial u_i}{\partial X_k} \frac{\partial u_i}{\partial X_l})
- \mathrm{d}X_k \mathrm{d}X_l
+ &=  2 \left( \frac{\partial u_i}{\partial X_k} \right) \mathrm{d}X_i
+ \mathrm{d}X_k \; + \\
+ & \quad + \left( \frac{\partial u_i}{\partial X_k} \frac{\partial u_i}{\partial
+ X_l} \right) \mathrm{d}X_k \mathrm{d}X_l
 \end{align}$$
 
 No primeiro termo da direita troca-se os sufixos e no segundo termo os sufixos $$i$$
