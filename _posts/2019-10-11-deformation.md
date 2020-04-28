@@ -15,7 +15,7 @@ descrever o comportamento do material, ou seja, é empregue um modelo físico
 de comportamento com resposta similar à esperada pelo material real. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
-provocadas. Estes ensaios devem permitir definir os parâmetros teológicos do
+provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
 material e, consequentemente, estabelecer a relação constitutiva que
 possibilita a construção de modelos numéricos para o estudo do comportamento do
 material.
@@ -24,10 +24,9 @@ Em problemas de engenharia são usados modelos computacionais para
 prever os comportamentos dos materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada, problema em
 análise, material em estudo, etc.. Mas quais os motivos para a existência de
-tantas definições de extensão?,
-qual a mais adequada? e para que tipo de análise?
-Este artigo tem como objectivo  as diferenças e vantagens entre as várias
-definições de extensão e o âmbito das suas aplicações.
+tantas definições de extensão?, qual a mais adequada? e para que tipo de
+análise? Este artigo tem como objectivo  as diferenças e vantagens entre as
+várias definições de extensão e o âmbito das suas aplicações.
 
 ## 1.2 Conceitos
 
@@ -53,7 +52,7 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 
 ## 1.3 Estrutura do artigo
 
-Este publicação  dividida em 3 partes:
+Esta publicação está dividida em 3 partes:
 
 * Parte I - Deformações e rotações infinitesimais;
 * Parte II - Grandes deformações;
@@ -66,14 +65,18 @@ com um exemplo prático para o caso .
 
 ## 1.4 Nomenclatura
 
-É utilizada a notação .
+É utilizada a notação indicial.
+
+$$P$$, $$Q$$ - partículas materiais na configuração inicial do corpo.
+$$P'$$, $$Q'$$ - partículas materiais na configuração do corpo no instante $$t$$.
 
 # 2 Medição da deformação
 
 
 Considere uma partícula material no interior da configuração inicial de um corpo
-contínuo. A sua posição inicial $$P$$ é definida pelo vector $$\vec{r}=X_ie_i$$. Quando o
-corpo é deslocado, a partícula material passa a ocupar a posição $$P'$$ definida
+contínuo, correspondente ao instante $$t_0$$. A sua posição inicial $$P$$ é
+definida pelo vector $$\vec{r}=X_ie_i$$. No instante $$t$$, a partícula material
+passa a ocupar a posição $$P'$$ definida
 pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$u$$ é obtido pela
 diferença $$\vec{r'}-\vec{r}$$:
 
