@@ -41,10 +41,10 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 *Extensão:* medida da deformação em relação a um referencial que, por exemplo,
  pode variar consoante o tipo de formulação.
 
-*Formulação :* medição das grandezas físicas em relação à
+*Formulação Lagrangeana:* medição das grandezas físicas em relação à
  configuração inicial do corpo.
 
-*Formulação :* medição das grandezas físicas em relação à
+*Formulação Euleriana:* medição das grandezas físicas em relação à
  configuração deformada do corpo.
 
 *Movimento de corpo rígido:* quando após a aplicação de forças ou deslocamentos
