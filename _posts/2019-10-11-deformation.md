@@ -10,12 +10,12 @@ image:
 
 ## 1.1 Motivação e objectivo
 
-Na mecânica dos meios contínuos utiliza-se a abordagem fenemológica para
+Na mecânica dos meios contínuos utilizar-se a abordagem fenomenológica para
 descrever o comportamento do material, ou seja, é empregue um modelo físico
 de comportamento com resposta similar à esperada pelo material real. Esta
 abordagem é baseada em ensaios experimentais que, de forma sucinta, consistem em
 aplicar forças numa amostra material e medir as deformações por estas
-provocadas. Estes ensaios devem permitir definir os parâmetros reológicos do
+provocadas. Estes ensaios devem permitir definir os parâmetros teológicos do
 material e, consequentemente, estabelecer a relação constitutiva que
 possibilita a construção de modelos numéricos para o estudo do comportamento do
 material.
@@ -26,7 +26,7 @@ definições de extensão consoante a ferramenta numérica utilizada, problema e
 análise, material em estudo, etc.. Mas quais os motivos para a existência de
 tantas definições de extensão?,
 qual a mais adequada? e para que tipo de análise?
-Este artigo tem como objectivo elencar as diferenças e vantagens entre as várias
+Este artigo tem como objectivo  as diferenças e vantagens entre as várias
 definições de extensão e o âmbito das suas aplicações.
 
 ## 1.2 Conceitos
@@ -41,10 +41,10 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 *Extensão:* medida da deformação em relação a um referencial que, por exemplo,
  pode variar consoante o tipo de formulação.
 
-*Formulação Lagrangeana:* medição das grandezas físicas em relação à
+*Formulação :* medição das grandezas físicas em relação à
  configuração inicial do corpo.
 
-*Formulação Euleriana:* medição das grandezas físicas em relação à
+*Formulação :* medição das grandezas físicas em relação à
  configuração deformada do corpo.
 
 *Movimento de corpo rígido:* quando após a aplicação de forças ou deslocamentos
@@ -53,7 +53,7 @@ Para uma leitura adequada são definidos os seguintes conceitos:
 
 ## 1.3 Estrutura do artigo
 
-Este publicação encontra-se dividida em 3 partes:
+Este publicação  dividida em 3 partes:
 
 * Parte I - Deformações e rotações infinitesimais;
 * Parte II - Grandes deformações;
@@ -61,18 +61,18 @@ Este publicação encontra-se dividida em 3 partes:
 
 A parte I começa com a Medição da deformação - capítulo 2. Segue o capítulo 3
 com o âmbito de aplicação das deformações e rotações infinitesimais e termina
-com um exemplo prático para o caso unidimensional.
+com um exemplo prático para o caso .
 
 
 ## 1.4 Nomenclatura
 
-É utilizada a notação indicial.
+É utilizada a notação .
 
 # 2 Medição da deformação
 
 
 Considere uma partícula material no interior da configuração inicial de um corpo
-contínuo. A sua posição inicial $$P$$ é definida pelo vector $$\vec{r}=X_ie_i$$. Quando o
+contínuo. A sua posição inicial $$P$$ é definida pelo vector $$\vem{r}=X_ie_i$$. Quando o
 corpo é deslocado, a partícula material passa a ocupar a posição $$P'$$ definida
 pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$u$$ é obtido pela
 diferença $$\vec{r'}-\vec{r}$$:
@@ -84,9 +84,9 @@ diferença $$\vec{r'}-\vec{r}$$:
 \end{split}
 \end{equation}
 
-Seja Q uma partícula material muito próxima da vizinhança de P (distância
-infinitesimal). A distância das duas partículas na configuração inicial do corpo
-é dada por:
+Seja Q outra partícula material muito próxima da vizinhança de P (distância
+infinitesimal). Na configuração inicial do corpo, a distância entre as duas
+partículas materiais é dada por:
 
 $$\begin{align}
 \overline{PQ} = \mathrm{d} l =& \sqrt{\mathrm{d} X_1^2+\mathrm{d}
