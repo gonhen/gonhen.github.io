@@ -54,8 +54,8 @@ considera como uma configuração deformada.
 **Formulação Euleriana:** medição das grandezas físicas em relação à
  configuração deformada do corpo.
 
-**Movimento de corpo rígido:** quando a distância entre todas as partículas
- materiais do interior do corpo se mantém inalterada.
+[//]:**Movimento de corpo rígido:** quando a distância entre todas as partículas
+[//]: materiais do interior do corpo se mantém inalterada.
 
 ## 1.3 Estrutura do artigo
 
@@ -110,8 +110,8 @@ X_2^2+\mathrm{d} X_3^2}\\
 =& \sqrt{\mathrm{d} X_i^2}
 \end{align}$$
 
-Para o instante $$ t$$, a distância entre as duas partículas materiais é
-calculada de forma análoga:
+Para a configuração deformada do corpo, correspondente ao instante $$ t$$, a
+distância entre as duas partículas materiais é calculada de forma análoga:
 
 
 $$ \begin{align}
@@ -124,11 +124,11 @@ Repare que $$ \mathrm{d} x_i $$ pode ser obtido em função da configuração
 inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
 \mathrm{d} u_i = \frac{\partial u_i}{\partial x_k} \mathrm{d} x_k $$.
 
-No caso de $$ \overline{PQ}=\overline{P'Q'}$$ para qualquer par de partículas
-materiais, o corpo está num movimento de corpo rígido. Caso contrário, o copo
-está deformado.
+[//]:No caso de $$ \overline{PQ}=\overline{P'Q'}$$ para qualquer par de partículas
+[//]:materiais, o corpo está num movimento de corpo rígido. Caso contrário, o copo
+[//]:está deformado.
 
-Para medir a deformação, seguindo o raciocínio de XXX, começa-se por analisar a
+Para medir a deformação, seguindo o raciocínio de Landau [1], começa-se por analisar a
 diferença do quadrado das distâncias infinitesimais das partículas:
 
 $$\begin{align}
@@ -163,7 +163,7 @@ u_l}{\partial X_i} \right) \\
 \end{align}$$
 
 A extensão de Green é dada em função da configuração inicial do corpo, ou seja,
-trata-se de uma formulação Lagrangeana. De forma análoga pode-se obter a
+trata-se de uma formulação Lagrangeana. Da mesma forma se pode obter a
 extensão de Almansi dada em função da configuração deformada do corpo
 (formulação Euleriana):
 
@@ -185,10 +185,10 @@ No caso das deformações e rotações serem infinitesimais, as expressões
 anteriores podem ser simplificadas e deixa de haver distinção entre a
 configuração inicial e corrente do corpo. Isto permite que o
 produto presente nas expressões seja negligenciado e obtém-se a
-extensão de engenharia $$\varepsilon$$:
+extensão de engenharia $$\varepsilon_{ik}$$:
 
 $$\begin{equation}
-\varepsilon = \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
+\varepsilon_{ik} = \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
 u_k}{\partial X_i} \right)
 \end{equation}$$
 
@@ -198,15 +198,19 @@ limitações.
 
 # 3 Exemplo prático unidimensional
 
-A comparação das diferentes definições de extensão pode ser feita para o caso
-unidimensional. Seja o factor de alongamento $$ \lambda $$ o rácio do
-comprimento do elemento linear antes e depois da deformação. As extensões podem
-ser calculadas em função de $$ \lambda $$. Neste exemplo começamos por definir
-as extensões mais usuais: de engenharia $$ \varepsilon_e $$, de Green $$
+Algumas diferenças entre as definições de extensão podem ser ilustradas através do caso
+unidimensional. Seja definido o factor de alongamento $$ \lambda $$ como rácio do
+comprimento do elemento linear antes e depois da deformação:
+
+$$
+\begin{equation}
+\lambda = \frac{l}{l_0}
+\end{equation}
+$$
+
+As extensões mais usuais: de engenharia $$ \varepsilon_e $$, de Green $$
 \varepsilon_G $$, de Almansi $$ \varepsilon_A $$ e logarítmica $$
-\varepsilon_{log} $$ para um
-elemento linear de comprimento inicial e corrente respectivamente $$ l_0 $$ e $$
-l$$:
+\varepsilon_{log} $$ podem ser determinadas em função do factor de alongamento:
 
 $$
 \begin{equation}
@@ -234,6 +238,7 @@ $$
 \end{equation}
 $$
 
+Quando o factor de alongamento é 1 a deformação é nula, algo
 Na figura seguinte estão representadas as extensões em função de $$ \lambda $$.
 
 {:refdef: style="text-align: center;"}
