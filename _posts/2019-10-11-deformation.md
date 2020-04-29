@@ -32,21 +32,29 @@ várias definições de extensão e o âmbito das suas aplicações.
 
 Para uma leitura adequada são definidos os seguintes conceitos:
 
-*Corpo contínuo:* corpo com o interior totalmente preenchido por partículas
+**Partículas materiais:** pontos materiais no contínuo.
+
+**Corpo contínuo:** corpo com o interior totalmente preenchido por partículas
  materiais.
 
-*Deformação Lagrangeana:* variação da distância entre dois pontos do interior do corpo.
+**Deformação:** variação da distância entre dois pontos do interior do corpo.
 
-*Extensão Euleriana:* medida da deformação em relação a um referencial que, por exemplo,
+**Extensão:** medida da deformação em relação a um referencial que, por exemplo,
  pode variar consoante o tipo de formulação.
 
-*Formulação Lagrangeana:* medição das grandezas físicas em relação à
+**Configuração inicial:** configuração do corpo no instante $$t_0$$ que se
+considera como uma configuração indeformada.
+
+**Configuração corrente:** configuração do corpo no instante $$t$$ que se
+considera como uma configuração deformada.
+
+**Formulação Lagrangeana:** medição das grandezas físicas em relação à
  configuração inicial do corpo.
 
-*Formulação Euleriana:* medição das grandezas físicas em relação à
+**Formulação Euleriana:** medição das grandezas físicas em relação à
  configuração deformada do corpo.
 
-*Movimento de corpo rígido:* quando a distância entre todas as partículas
+**Movimento de corpo rígido:** quando a distância entre todas as partículas
  materiais do interior do corpo se mantém inalterada.
 
 ## 1.3 Estrutura do artigo
@@ -71,24 +79,26 @@ instante $$t_0$$.\\
 $$P'$$, $$Q'$$ - posições das partículas materiais na configuração do corpo no
 instante $$t$$.\\
 $$X_i$$ - coordenadas da partícula material no instante $$t_0$$\\
-$$x_i$$ - coordenadas da partícula material no instante $$t$$
-
+$$x_i$$ - coordenadas da partícula material no instante $$t$$\\
+$$E_{ik}$$ - extensão de Green\\
+$$e_{ik}$$ - extensão de Almansi\\
+$$\varepsilon$$ - extensão de engenharia
 # 2 Medição da deformação
 
 
 Considere uma partícula material no interior da configuração inicial de um corpo
-contínuo, correspondente ao instante $$t_0$$. A sua posição inicial $$P$$ é
-definida pelo vector $$\vec{r}=X_ie_i$$. No instante $$t$$, a partícula material
-passa a ocupar a posição $$P'$$ definida
-pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$u$$ é obtido pela
-diferença $$\vec{r'}-\vec{r}$$:
+contínuo, correspondente ao instante $$t_0$$. A sua posição inicial $$ P $$ é
+definida pelo vector $$ \vec{r}=X_ie_i $$. No instante $$ t $$, a partícula material
+passa a ocupar a posição $$ P'$$ definida
+pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$ u$$ é obtido pela
+diferença $$ \vec{r'}-\vec{r}$$:
 
-\begin{equation}
+$$\begin{equation}
 \begin{split}
 & u = \vec{r'}-\vec{r} \\
  \Rightarrow \quad & u_i = (x_i -X_i)e_i \quad .
 \end{split}
-\end{equation}
+\end{equation}$$
 
 Seja Q outra partícula material muito próxima da vizinhança de P (distância
 infinitesimal). Na configuração inicial do corpo, a distância entre as duas
@@ -100,11 +110,11 @@ X_2^2+\mathrm{d} X_3^2}\\
 =& \sqrt{\mathrm{d} X_i^2}
 \end{align}$$
 
-Para o instante $$t$$, a distância entre as duas partículas materiais é
+Para o instante $$ t$$, a distância entre as duas partículas materiais é
 calculada de forma análoga:
 
 
-$$\begin{align}
+$$ \begin{align}
 \overline{P'Q'} = \mathrm{d} l' &= \sqrt{\mathrm{d} x_1^2+\mathrm{d}
 x_2^2+\mathrm{d} x_3^2} \\
 &= \sqrt{\mathrm{d} x_i^2}
@@ -114,13 +124,12 @@ Repare que $$ \mathrm{d} x_i $$ pode ser obtido em função da configuração
 inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
 \mathrm{d} u_i = \frac{\partial u_i}{\partial x_k} \mathrm{d} x_k $$.
 
-No caso de $$\overline{PQ}=\overline{P'Q'}$$ para qualquer par de partículas
+No caso de $$ \overline{PQ}=\overline{P'Q'}$$ para qualquer par de partículas
 materiais, o corpo está num movimento de corpo rígido. Caso contrário, o copo
 está deformado.
 
 Para medir a deformação, seguindo o raciocínio de XXX, começa-se por analisar a
 diferença do quadrado das distâncias infinitesimais das partículas:
-
 
 $$\begin{align}
 \mathrm{d} l'^2 - \mathrm{d} l^2 &= \mathrm{d} x_i^2 - \mathrm{d} X_i^2 \\
@@ -134,80 +143,105 @@ $$\begin{align}
  X_l} \right) \mathrm{d}X_k \mathrm{d}X_l
 \end{align}$$
 
-No primeiro termo da direita troca-se os sufixos e no segundo termo os sufixos $$i$$
-po $$l$$:
+No primeiro termo da direita troca-se os sufixos e no segundo termo os sufixos
+$$ i$$ por $$ l$$:
 
+$$
 \begin{equation}
 \mathrm{d} l'^2 - \mathrm{d} l^2 = 2 E_{ik} \mathrm{d}X_i \mathrm{d}X_k
 \end{equation}
+$$
 
-em que $$E_{ik}$$ é definido como a extensão de Green:
+$$ E_{ik}$$ é definido como a extensão de Green:
 
-$$\begin{align}
-E_{ik} &= \frac{1}{2} (\frac{\partial u_i}{\partial X_k} + \frac{\partial
+$$
+\begin{align}
+E_{ik} &= \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
 u_k}{\partial X_i} + \frac{\partial u_l}{\partial X_k} \frac{\partial
-u_l}{\partial X_i} ) \\
+u_l}{\partial X_i} \right) \\
 &= \frac{1}{2} (u_{i,k} + u_{k,i} + u_{l,k} u_{l,i})
 \end{align}$$
 
 A extensão de Green é dada em função da configuração inicial do corpo, ou seja,
-trata-se de uma formulação Langrangeana. De forma análoga pode-se obter a
+trata-se de uma formulação Lagrangeana. De forma análoga pode-se obter a
 extensão de Almansi dada em função da configuração deformada do corpo
 (formulação Euleriana):
 
+$$
 \begin{equation}
 e_{ik} = \frac{1}{2} \left(\frac{\partial u_i}{\partial x_k} + \frac{\partial
-u_k}{\partial x_k} + \frac{\partial u_l}{\partial x_k} \frac{\partial
+u_k}{\partial x_i} + \frac{\partial u_l}{\partial x_k} \frac{\partial
 u_l}{\partial x_i} \right)
-\end{equation}
+\end{equation}$$
 
-No caso das deformações infinitesimais, as expressões anteriores podem ser
-simplificadas e deixa de haver distinção entre a formulação Langreangena e
-Euleriana. Como as deformações são muito pequenas, as suas medições em relação à
-configuração inicial e deformada do corpo são equivalentes. Para além disso, o
-produto presente nas expressões pode ser negligenciado. Desta forma obtém-se a
+A formulação Euleriana é a mais utilizada na mecânica nos fluídos. De facto, como
+num líquido Newtoniano as tensões são independentes do tempo não há necessidade
+de uma configuração inicial. Ao contrário, nos sólidos as tensões dependem da
+história de carregamento e, como tal, há necessidade de especificar a configuração
+indeformada. Como tal, a formulação Lagrangeana é a mais utilizada na mecânica
+dos sólidos.
+
+No caso das deformações e rotações serem infinitesimais, as expressões
+anteriores podem ser simplificadas e deixa de haver distinção entre a
+configuração inicial e corrente do corpo. Isto permite que o
+produto presente nas expressões seja negligenciado e obtém-se a
 extensão de engenharia $$\varepsilon$$:
 
-\begin{equation}
+$$\begin{equation}
 \varepsilon = \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
 u_k}{\partial X_i} \right)
-\end{equation}
+\end{equation}$$
 
 As extensões de engenharia são as mais utilizadas por permitirem uma relação
 linear com as funções deslocamento. Contudo, estas simplificações têm as suas
 limitações.
 
-# 3 Âmbito de aplicação das deformações e rotações infinitesimais
+# 3 Exemplo prático unidimensional
 
-### Introdução
+A comparação das diferentes definições de extensão pode ser feita para o caso
+unidimensional. Seja o factor de alongamento $$ \lambda $$ o rácio do
+comprimento do elemento linear antes e depois da deformação. As extensões podem
+ser calculadas em função de $$ \lambda $$. Neste exemplo começamos por definir
+as extensões mais usuais: de engenharia $$ \varepsilon_e $$, de Green $$
+\varepsilon_G $$, de Almansi $$ \varepsilon_A $$ e logarítmica $$
+\varepsilon_{log} $$ para um
+elemento linear de comprimento inicial e corrente respectivamente $$ l_0 $$ e $$
+l$$:
 
-Na mecânica dos materiais, apesar da natureza discreta da matéria, é assumido,
-sempre que possível, a hipótese da continuidade. No âmbito da deformação, isto
-significa que para qualquer configuração de um corpo corresponde uma região $$R$$
-no espaço tridimensional totalmente preenchida por partículas materiais.
+$$
+\begin{equation}
+\varepsilon_e = \frac{l-l_0}{l_0} = \lambda -1
+\end{equation}
+$$
 
-Considere-se uma partícula material da configuração inicial do corpo que ocupa a
-posição do ponto $$P$$ definida pelo vector $$ \textbf{r} = x_i \textbf{e}_i$$.
- Quando  o corpo é deslocado, a partícula material passa a ocupar a posição
-$$P'$$ definida pelo vector $$ \textbf{r'} = x'_i \textbf{e}_i$$. O deslocamento
-da partícula é obtido pela diferença dos vectores $$ \textbf{r'} - \textbf{r}$$:
+$$
+\begin{equation}
+\varepsilon_G = \frac{1}{2} \frac{l^2-l_0^2}{l_0^2} = \frac{1}{2} ( \lambda^2 -1 )
+\end{equation}
+$$
 
-$$\begin{align} \textbf{u} &= \textbf{r'} - \textbf{r} \\
-                             &= (x'_i - x_i)\textbf{e}_i \tag{1}
-\end{align}$$
+$$
+\begin{equation}
+\varepsilon_A = \frac{1}{2} \frac{l^2-l_0^2}{l^2} = \frac{1}{2} \left( 1-
+\frac{1}{\lambda^2} \right)
+\end{equation}
+$$
 
-Se as distâncias entre as posições das partículas do corpo mantiverem-se
-incalteradas após a deslocação, houve um movimento de corpo rígido, caso contrário
-o corpo deformou-se.
 
-Na secção seguinte começa-se por introduzir o conceito de deformação para o caso
-unidimensional.
+$$
+\begin{equation}
+\varepsilon_{log} = \ln {\frac{l}{l_0}} = \ln {\lambda}
+\end{equation}
+$$
 
-### Caso unidimensional de deformação
-
-Considere-se uma barra com os graus de liberdade restringidos na extremidade
-esquerda.
+Na figura seguinte estão representadas as extensões em função de $$ \lambda $$.
 
 {:refdef: style="text-align: center;"}
 ![get the PDF](/assets/img/fig.jpg)
 {: refdef}
+
+Na figura é visível que quando a deformação é muito pequena, ou seja,
+quando o factor de alongamento $$ \lambda $$ é próximo da unidade, as várias
+definições de extensão são equivalentes.
+
+# 4 Considerações finais da Parte I
