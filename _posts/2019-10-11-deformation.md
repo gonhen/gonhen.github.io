@@ -23,16 +23,18 @@ material.
 Em problemas de engenharia são usados modelos computacionais para
 prever os comportamentos dos materiais. Nestes modelos surgem diferentes
 definições de extensão consoante a ferramenta numérica utilizada, problema em
-análise, material em estudo, etc.. Mas quais os motivos para a existência de
-tantas definições de extensão?, qual a mais adequada? e para que tipo de
-análise? Este artigo tem como objectivo elencar as diferenças e vantagens entre as
-várias definições de extensão e o âmbito das suas aplicações.
+análise, material em estudo, etc..
+
+Mas quais os motivos para a existência de tantas definições de extensão?, qual a
+mais adequada? e para que tipo de análise? Este artigo tem como objectivo
+elencar as diferenças e vantagens entre as várias definições de extensão e o
+âmbito das suas aplicações.
 
 ## 1.2 Conceitos
 
 Para uma leitura adequada são definidos os seguintes conceitos:
 
-**Partículas materiais:** pontos materiais no contínuo.
+**Partícula material:** ponto material.
 
 **Corpo contínuo:** corpo com o interior totalmente preenchido por partículas
  materiais.
@@ -93,7 +95,8 @@ passa a ocupar a posição $$ P'$$ definida
 pelo vector $$\vec{r'}=x_ie_i$$. O deslocamento da partícula material $$ u$$ é obtido pela
 diferença $$ \vec{r'}-\vec{r}$$:
 
-$$\begin{equation}
+$$
+\begin{equation}
 \begin{split}
 & u = \vec{r'}-\vec{r} \\
  \Rightarrow \quad & u_i = (x_i -X_i)e_i \quad .
@@ -104,7 +107,8 @@ Seja Q outra partícula material muito próxima da vizinhança de P (distância
 infinitesimal). Na configuração inicial do corpo, a distância entre as duas
 partículas materiais é dada por:
 
-$$\begin{align}
+$$
+\begin{align}
 \overline{PQ} = \mathrm{d} l =& \sqrt{\mathrm{d} X_1^2+\mathrm{d}
 X_2^2+\mathrm{d} X_3^2}\\
 =& \sqrt{\mathrm{d} X_i^2}
@@ -114,7 +118,8 @@ Para a configuração deformada do corpo, correspondente ao instante $$ t$$, a
 distância entre as duas partículas materiais é calculada de forma análoga:
 
 
-$$ \begin{align}
+$$
+\begin{align}
 \overline{P'Q'} = \mathrm{d} l' &= \sqrt{\mathrm{d} x_1^2+\mathrm{d}
 x_2^2+\mathrm{d} x_3^2} \\
 &= \sqrt{\mathrm{d} x_i^2}
@@ -131,9 +136,10 @@ inicial do corpo $$ \mathrm{d} x_i = \mathrm{d} X_i + \mathrm{d} u_i$$ e $$
 Para medir a deformação, seguindo o raciocínio de Landau [1], começa-se por analisar a
 diferença do quadrado das distâncias infinitesimais das partículas:
 
-$$\begin{align}
+$$
+\begin{align}
 \mathrm{d} l'^2 - \mathrm{d} l^2 &= \mathrm{d} x_i^2 - \mathrm{d} X_i^2 \\
- &= (\mathrm{d} X_i + \mathrm{d} u_i)^2 - \mathrm{d} X_i^2 \\
+&= (\mathrm{d} X_i + \mathrm{d} u_i)^2 - \mathrm{d} X_i^2 \\
  &= \mathrm{d} X_i^2 + 2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 -
  \mathrm{d} X_i^2 \\
  &=  2 \mathrm{d}X_i \mathrm{d} u_i + \mathrm{d} u_i^2 \\
@@ -141,7 +147,8 @@ $$\begin{align}
  \mathrm{d}X_k \; + \\
  & \quad + \left( \frac{\partial u_i}{\partial X_k} \frac{\partial u_i}{\partial
  X_l} \right) \mathrm{d}X_k \mathrm{d}X_l
-\end{align}$$
+\end{align}
+$$
 
 No primeiro termo da direita troca-se os sufixos e no segundo termo os sufixos
 $$ i$$ por $$ l$$:
@@ -154,8 +161,7 @@ $$
 
 $$ E_{ik}$$ é definido como a extensão de Green:
 
-$$
-\begin{align}
+$$\begin{align}
 E_{ik} &= \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
 u_k}{\partial X_i} + \frac{\partial u_l}{\partial X_k} \frac{\partial
 u_l}{\partial X_i} \right) \\
@@ -187,7 +193,8 @@ configuração inicial e corrente do corpo. Isto permite que o
 produto presente nas expressões seja negligenciado e obtém-se a
 extensão de engenharia $$\varepsilon_{ik}$$:
 
-$$\begin{equation}
+$$
+\begin{equation}
 \varepsilon_{ik} = \frac{1}{2} \left(\frac{\partial u_i}{\partial X_k} + \frac{\partial
 u_k}{\partial X_i} \right)
 \end{equation}$$
@@ -198,8 +205,18 @@ limitações.
 
 # 3 Exemplo prático unidimensional
 
-Algumas diferenças entre as definições de extensão podem ser ilustradas através do caso
-unidimensional. Seja definido o factor de alongamento $$ \lambda $$ como rácio do
+As diferentes definições de extensão podem ser estudadas para o caso
+unidimensional de um elemento linear de comprimento inicial e corrente
+respectivamente $$ l_0 $$ e $$ l $$. Para além das definições de extensão
+anteriormente referidas, introduz-se a extensão logarítmica:
+
+$$
+\begin{equation}
+\varepsilon_{log} = \int_{l_0}^{l} \frac{dl}{L} = \ln \frac{l}{l_0}
+\end{equation}
+$$
+
+Seja definido o factor de alongamento $$ \lambda $$ como rácio do
 comprimento do elemento linear antes e depois da deformação:
 
 $$
@@ -208,9 +225,8 @@ $$
 \end{equation}
 $$
 
-As extensões mais usuais: de engenharia $$ \varepsilon_e $$, de Green $$
-\varepsilon_G $$, de Almansi $$ \varepsilon_A $$ e logarítmica $$
-\varepsilon_{log} $$ podem ser determinadas em função do factor de alongamento:
+Com o objectivo de comparar as diferentes definições de extensão, estas são
+formuladas em função do factor de alongamento:
 
 $$
 \begin{equation}
@@ -218,8 +234,7 @@ $$
 \end{equation}
 $$
 
-$$
-\begin{equation}
+$$\begin{equation}
 \varepsilon_G = \frac{1}{2} \frac{l^2-l_0^2}{l_0^2} = \frac{1}{2} ( \lambda^2 -1 )
 \end{equation}
 $$
@@ -238,7 +253,6 @@ $$
 \end{equation}
 $$
 
-Quando o factor de alongamento é 1 a deformação é nula, algo
 Na figura seguinte estão representadas as extensões em função de $$ \lambda $$.
 
 {:refdef: style="text-align: center;"}
@@ -247,6 +261,28 @@ Na figura seguinte estão representadas as extensões em função de $$ \lambda 
 
 Na figura é visível que quando a deformação é muito pequena, ou seja,
 quando o factor de alongamento $$ \lambda $$ é próximo da unidade, as várias
-definições de extensão são equivalentes.
+definições têm um valor muito próximo.
 
 # 4 Considerações finais da Parte I
+
+No âmbito das deformações e rotações pequenas verifica-se que todas as
+definições analisadas dão a mesma medição de deformação. Como tal, utiliza-se a
+extensão de engenharia por ser a mais simples de calcular.
+
+Deve-se ainda salientar algumas propriedades na descrição do material no âmbito
+das pequenas deformações:
+
+* variáveis da descrição Euleriana = variáveis das descrição Lagrangeana;
+* configuração inicial = configuração corrente;
+* decomposição da extensão total numa análise elasto-plástica: $$ \varepsilon =
+  \varepsilon^e + \varepsilon^p $$.
+
+Na parte II são analisadas as diferentes definições de extensão para o caso de
+deformações finitas.
+
+<!--
+Local Variables:
+markdown-enable-math: t
+ispell-local-dictionary: "pt_PT-preao"
+End:
+-->
