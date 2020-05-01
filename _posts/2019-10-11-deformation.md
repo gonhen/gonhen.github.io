@@ -256,7 +256,7 @@ $$
 Na figura seguinte estão representadas as extensões em função de $$ \lambda $$.
 
 {:refdef: style="text-align: center;"}
-![get the PDF](/assets/img/fig.jpg)
+![get the PDF](/assets/img/fig-1.jpg)
 {: refdef}
 
 Na figura é visível que quando a deformação é muito pequena, ou seja,
