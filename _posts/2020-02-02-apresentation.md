@@ -9,11 +9,11 @@ image:
 Bem-vindos ao meu Blog!!
 
 Em primeiro lugar, o nome deste Blog - "Computer Shapes the Theory" - é o título
-de um ensaio de 1965 do Professor John Argyris. Ao ler o livro
+de uma aula de 1965 do Professor John Argyris que encontrei ao ler o livro
 "The History of the Theory of Structures: Searching for equilibrium"  de
-Karl-Eugen Kurrer, deparei-me com o artigo no qual Argyris, um dos pioneiros do Método
-dos Elementos Finitos, afirma que para além da teoria e da experimentação
-existe um novo pilar: a simulação numérica.
+Karl-Eugen Kurrer. Argyris, um dos pioneiros do Método
+dos Elementos Finitos, afirma nessa aula que para além da teoria e da experimentação
+existe um novo pilar: a simulação numérica. 
 
 Neste espaço quero partilhar vários textos de índole científica, aglutinados por
 todos eles espelharem a minha procura por respostas. Exploro como determinados
