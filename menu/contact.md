@@ -1,6 +1,14 @@
 ---
 layout: page
-title: Contact
+title: Contacto
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+Podem contactar-me por e-mail: gmv.henriques@gmail.com
+
+
+<!--
+Local Variables:
+markdown-enable-math: t
+ispell-local-dictionary: "pt_PT-preao"
+End:
+-->
