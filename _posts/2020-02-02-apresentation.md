@@ -15,7 +15,7 @@ um dos pioneiros do Método dos Elementos Finitos, afirma que, para
 além da teoria e da experimentação, existe um novo pilar: a simulação numérica.
 
 Neste espaço quero partilhar vários textos de índole científica, aglutinados por
-todos eles espelharem a minha busca por respostas. Exploro como determinados
+todos eles espelharem a minha busca por respostas. Aqui exploro como determinados
 conceitos teóricos são influenciados pela computação, mostro a evolução do meu conhecimento
 de novas matérias e abordo temas que julgue serem interessantes
 (livros que li, temas da actualidade, etc.). Pretendo que os textos apresentem 
